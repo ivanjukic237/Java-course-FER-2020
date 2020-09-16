@@ -1,0 +1,6 @@
+{$ FOR sco_re "-1"10 "1" $} 
+
+ovo je tijelo for petlje
+{$= funkcija @sin$}
+
+{$END$}

@@ -1,0 +1,12 @@
+{$= "text/html" @setMimeType $}
+<!DOCTYPE html>
+<html>
+ <head>
+<title>Message</title>
+ </head>
+ <body>
+ The color was {$="updated" "" @tparamGet$} updated :)
+<br></br>
+<h1><a href="index2.html">Index</a></h1>
+ </body>
+</html>

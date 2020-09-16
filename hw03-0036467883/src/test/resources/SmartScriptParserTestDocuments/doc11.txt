@@ -1,0 +1,3 @@
+{$ FOR year 1 last_year $}
+				as
+				{$  END $}{$  END $}

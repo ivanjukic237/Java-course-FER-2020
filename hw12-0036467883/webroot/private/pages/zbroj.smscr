@@ -1,0 +1,5 @@
+{$= "text/html" @setMimeType $}
+<html>
+
+{$="zbroj" "1" @tparamGet$}
+</html>

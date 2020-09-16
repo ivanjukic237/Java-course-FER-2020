@@ -1,0 +1,44 @@
+{$= "text/html" @setMimeType $}
+<!DOCTYPE html>
+<html>
+ <head>
+<title>Home</title>
+ <style>
+ body {background-color: #{$="background" "7F7F7F" @tparamGet$};}
+ </style>
+ </head>
+ <body>
+ <h1><a href="/scripts/osnovni.smscr">Osnovni</a></h1>
+ <h1><a href="/scripts/brojPoziva.smscr">Broj poziva</a></h1>
+ <h1><a href="/scripts/fibonaccih.smscr">Fibonacci</a></h1>
+ <h1><a href="/hello">Hello</a></h1>
+ <h1><a href="/cw">Circle</a></h1>
+
+<br></br>
+
+<form action="/calc" method="get" id="form1">
+  a: <input type="text" name="a"><br>
+  b: <input type="text" name="b"><br>
+</form>
+
+<button type="submit" form="form1" value="Submit">Submit</button>
+
+<br></br>
+
+<form action="/setbgcolor" method="get" id="form2">
+  <p>Select background color:</p>
+  <input type="radio" id="White" name="bgcolor" value="FFFFFF">
+  <label for="White">White</label><br>
+  <input type="radio" id="Orange" name="bgcolor" value="FFD733">
+  <label for="Orange">Orange</label><br>
+  <input type="radio" id="Red" name="bgcolor" value="FF0000">
+  <label for="Red">Red</label><br>
+  <input type="radio" id="Green" name="bgcolor" value="33FFB5">
+  <label for="Green">Green</label><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+
+ </body>
+</html>
